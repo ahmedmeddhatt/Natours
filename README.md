@@ -26,9 +26,6 @@
   <a href="#acknowledgement">Acknowledgement</a>
 </p>
 
-## Deployed Version
-Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
-
 
 ## Key Features
 
@@ -38,7 +35,6 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
   - Manage booking, check tours map, check users' reviews and rating
 * User profile
   - Update username, photo, email, and password
-* Credit card Payment
 
 
 ## Demonstration
@@ -68,13 +64,7 @@ Live demo (Feel free to visit) 👉 : https://lakshman-natours.herokuapp.com/
 * Login to the site
 * Search for tours that you want to book
 * Book a tour
-* Proceed to the payment checkout page
-* Enter the card details (Test Mood):
-  ```
-  - Card No. : 4242 4242 4242 4242
-  - Expiry date: 02 / 22
-  - CVV: 222
-  ```
+
 * Finished!
 
 
@@ -99,34 +89,11 @@ Before using the API, you need to set the variables in Postman depending on your
 
 Check [Natours API Documentation](https://documenter.getpostman.com/view/8689170/SVmzvwpY?version=latest) for more info.
 
-<b> API Features: </b>
-
-Tours List 👉 https://lakshman-natours.herokuapp.com/api/v1/tours
-
-Tours State 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tour-stats
-
-Get Top 5 Cheap Tours 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/top-5-cheap
-
-Get Tours Within Radius 👉 https://lakshman-natours.herokuapp.com/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi
 
 
 
-## Deployment
-The website is deployed with git into heroku. Below are the steps taken:
-```
-git init
-git add -A
-git commit -m "Commit message"
-heroku login
-heroku create
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js
-git push heroku master
-heroku open
-```
-You can also changed your website url by running this command:
-```
-heroku apps:rename natours-users
+
+
 ```
 
 
