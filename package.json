@@ -13,14 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lgope/Natours.git"
+    "url": "https://github.com/ahmedmeddhatt/Natours"
   },
   "author": "Ahmed Medhat",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lgope/Natours/issues"
-  },
-  "homepage": "https://github.com/lgope/Natours#readme",
+  "homepage": "https://github.com/ahmedmeddhatt",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "a": "^2.1.2",
